@@ -32,3 +32,16 @@ Requires:
    ```sh
    git clone https://github.com/yourusername/windows-unix-command-pack.git
    cd windows-unix-command-pack
+
+2. Create build directory
+
+   ```sh
+   mkdir build
+   cd build
+
+3. Generate Visual Studio project files and build:
+
+   ```sh
+   cmake ..
+   cmake --build .
+   
